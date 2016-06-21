@@ -11,7 +11,8 @@
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
        int carry = 0;
        ListNode temp = new ListNode(0);
-       ListNode p1 = l1, p2 = l2, p3 = temp;
+       ListNode p1 = l1, p2 = l2, p3 = temp; //p1 for 1st number, p2 for 2nd number, p3 to store the result;
+       //retrieve one digit at a time, from the unit level to the top level
        
       while(p1 != null || p2 != null){
       if(p1 != null){
