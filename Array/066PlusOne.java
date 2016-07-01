@@ -13,7 +13,7 @@ public class Solution {
         }
       }
       
-      //add a new digit ahead
+      //add a new digit ahead, in the situation of all nine
       int[] result = new int[digits.length+1];
       result[0] = 1;
       return result;
