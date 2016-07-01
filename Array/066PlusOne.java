@@ -7,7 +7,7 @@ public class Solution {
       for(int i = digits.length - 1; i>=0; i--){
         if(digits[i] < 9){
           digits[i] += carry;
-          return digits; //return result here if no carry
+          return digits; //return result here if no carry, 9前面的位数只加1
         }else if(digits[i] == 9){
           digits[i] = 0;
         }
